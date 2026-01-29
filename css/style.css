@@ -101,7 +101,7 @@ body {
 .site-header {
   align-items: center;
   background: var(--color-white);
-  border: 2px dashed var(--color-border);
+  border: 1px dashed #8d9fb0;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   display: flex;
@@ -168,7 +168,7 @@ body {
 
 .post {
   background: var(--color-white);
-  border: 2px solid var(--color-border);
+  border: 1px dashed #8d9fb0;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-lg);
   padding: 2.5rem;
@@ -368,7 +368,7 @@ img {
 
 .settings-dropdown {
   background: var(--color-white);
-  border: 2px solid var(--color-border);
+  border: 1px dashed #8d9fb0;
   border-radius: var(--border-radius-sm);
   box-shadow: var(--shadow-lg);
   display: none;
