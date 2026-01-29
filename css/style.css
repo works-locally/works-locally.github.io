@@ -46,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: min(1200px, 80vw);
   min-height: 100vh;
   padding: 2rem 1.5rem;
 }
@@ -68,6 +68,11 @@ body {
   font-family: var(--font-mono);
   font-size: 1.25rem;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
 
 .logo-bracket {
