@@ -232,9 +232,8 @@ li {
 
 /* Horizontal Rule */
 hr {
-  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
   border: none;
-  height: 2px;
+  border-top: 3px dashed var(--color-primary);
   margin: 2rem 0;
 }
 
