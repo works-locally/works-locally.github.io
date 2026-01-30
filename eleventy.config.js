@@ -7,6 +7,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('favicon.svg');
   // Pass through OG image
   eleventyConfig.addPassthroughCopy('og.png');
+  // Pass through OG image
+  eleventyConfig.addPassthroughCopy('og_lowres.png');
 
   return {
     dir: {
